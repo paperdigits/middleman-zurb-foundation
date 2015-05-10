@@ -8,6 +8,9 @@ gem "middleman-favicon-maker", "~> 3.2"
 # Live-reloading plugin
 gem "middleman-livereload"
 
+# Markdown processor
+gem "kramdown"
+
 # JavaScript
 gem 'execjs'
 gem 'therubyracer'

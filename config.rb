@@ -37,6 +37,23 @@ end
 # end
 
 ###
+# haml
+###
+
+# Set haml format to HTML5
+set :haml, { :format => :html5 }
+
+###
+# kramdown
+###
+
+set :markdown_engine, :kramdown
+set :markdown, :layout_engine => :haml, 
+               :tables => true, 
+               :autolink => true,
+               :smartypants => true
+
+###
 # Page options, layouts, aliases and proxies
 ###
 
