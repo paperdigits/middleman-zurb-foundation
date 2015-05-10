@@ -136,3 +136,18 @@ configure :build do
     ]
   }  
 end
+
+###
+# middleman-deploy; requires rsync
+###
+# Requires middleman-deploy and rsync
+# activate :deploy do |deploy|
+#   deploy.method = :rsync
+#   deploy.user   = "example"
+#   deploy.host   = "www.example.com"
+#   deploy.path   = "/public_html"
+#   # Optional Settings
+#   deploy.port  = 22 # ssh port, default: 22
+#   deploy.clean = true # remove orphaned files on remote host, default: false
+#   deploy.build_before = true # default: false
+# end

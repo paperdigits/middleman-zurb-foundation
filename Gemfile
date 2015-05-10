@@ -3,6 +3,7 @@
 source 'https://rubygems.org'
 
 gem "middleman"
+# gem "middleman-deploy"
 gem "middleman-favicon-maker", "~> 3.2"
 
 # Live-reloading plugin
