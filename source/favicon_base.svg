@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="144"
+   height="144"
+   id="svg2"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="favicon_base.svg"
+   inkscape:export-filename="/Users/micas/Desktop/silentumbrella/images/drop.png"
+   inkscape:export-xdpi="3.8599999"
+   inkscape:export-ydpi="3.8599999">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1364"
+     inkscape:window-height="744"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="2.1573285"
+     inkscape:cx="-7.3733851"
+     inkscape:cy="77.569928"
+     inkscape:window-x="0"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2"
+     inkscape:document-units="px"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-page="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="-122.37358,62.113861"
+       id="guide3790" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-103.15733,-0.57953558"
+       id="guide3792" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-30.815082,144.17056"
+       id="guide3794" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-126.91829,-100.83919"
+       id="guide3796" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="77.874093,77.874093"
+       id="guide2998" />
+  </sodipodi:namedview>
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3764">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3766" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop3768" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3764"
+       id="linearGradient3003"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.52242586,0,0,0.4591879,-79.024658,-148.77086)"
+       x1="223.13689"
+       y1="534.24139"
+       x2="264.36115"
+       y2="534.24139" />
+    <filter
+       inkscape:collect="always"
+       id="filter3780"
+       x="-0.14376483"
+       width="1.2875297"
+       y="-0.046009436"
+       height="1.0920189">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="1.2587931"
+         id="feGaussianBlur3782" />
+    </filter>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer"
+     style="display:inline"
+     transform="translate(0,-203.60002)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#e0a5eb;fill-opacity:1;stroke:#ffffff;stroke-opacity:1"
+     id="path3117"
+     sodipodi:cx="73.238731"
+     sodipodi:cy="72.204491"
+     sodipodi:rx="71.848122"
+     sodipodi:ry="72.375046"
+     d="m 145.08685,72.204491 a 71.848122,72.375046 0 1 1 -143.6962403,0 71.848122,72.375046 0 1 1 143.6962403,0 z"
+     transform="matrix(1.0021139,0,0,0.99599633,-1.3935494,-6.8773164e-4)" />
+</svg>

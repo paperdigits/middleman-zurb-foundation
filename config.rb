@@ -102,4 +102,20 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  ###
+  # middleman-favicon-maker		
+  ###
+
+  activate :favicon_maker, :icons => {
+    "favicon_base.svg" => [
+      { icon: "apple-touch-icon-152x152-precomposed.png" },
+      { icon: "apple-touch-icon-144x144-precomposed.png" },
+      { icon: "apple-touch-icon-114x114-precomposed.png" },
+      { icon: "apple-touch-icon-72x72-precomposed.png" },
+      { icon: "apple-touch-icon-precomposed.png", size: "57x57" },
+      { icon: "favicon.png", size: "16x16" },
+      { icon: "favicon.ico", size: "64x64,32x32,24x24,16x16" },
+    ]
+  }  
 end
