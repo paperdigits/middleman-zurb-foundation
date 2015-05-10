@@ -5,7 +5,16 @@
     %meta{:charset => "utf-8"}/
     %meta{:content => "width=device-width, initial-scale=1.0", :name => "viewport"}/
     / Use title if it's in the page YAML frontmatter
-    %title= data.page.title || "The Middleman"
+  
+    %title
+      = data.page.title
+      ||
+      =site_title
+
+    %meta{:name => "description", :content => site_description }
+    %meta{:name => "author", :content => site_author }
+    %meta{:content => site_language, :name => "language"}
+    %meta{:content => site_keywords, :name => "keywords"}
 
     -# Place favicon.ico and apple-touch-icon.png in the root directory
     %link{ rel: "apple-touch-icon", sizes: "152x152", href: "apple-touch-icon-152x152-precomposed.png" }
@@ -19,5 +28,16 @@
     = stylesheet_link_tag "app", "style"
     = javascript_include_tag "modernizr"
   %body{:class => page_classes}
-    = yield
+    .container
+      %header
+        %h1
+          =site_title
+      #main-content{:role => "main"}
+        -# Page content gets rendered here
+        = yield
+
+      %footer
+        %p &copy; #{copyright_years(2011)} 
+          =author
+
     = javascript_include_tag  "all"

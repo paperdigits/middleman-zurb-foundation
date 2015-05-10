@@ -1,3 +1,11 @@
+# site config
+set :site_title, 'Site Title'
+set :site_author, 'Site Author'
+set :site_language, 'en-us'
+set :site_url, 'http://example.com'
+set :site_description, 'Site Description'
+set :site_keywords, 'keywords, home page'
+
 ###
 # Compass
 ###
@@ -85,11 +93,17 @@ set :markdown, :layout_engine => :haml,
 activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  # Calculate the years for a copyright
+  def copyright_years(start_year)
+    end_year = Date.today.year
+    if start_year == end_year
+      start_year.to_s
+    else
+      start_year.to_s + '-' + end_year.to_s
+    end
+  end
+end # end helpers  
 
 # Add bower's directory to sprockets asset path
 after_configuration do
